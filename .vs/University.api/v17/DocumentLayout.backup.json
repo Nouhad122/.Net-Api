@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.data\\classmappings\\studentmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|solutionrelative:university.data\\classmappings\\studentmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.data\\contexts\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|solutionrelative:university.data\\contexts\\universitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E725E-1A55-4261-926F-AFB6CA99171C}|University.api\\University.api.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E725E-1A55-4261-926F-AFB6CA99171C}|University.api\\University.api.csproj|solutionrelative:university.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89F2635-2152-427F-A210-B3AA99D41B15}|University.Core\\University.Core.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.core\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89F2635-2152-427F-A210-B3AA99D41B15}|University.Core\\University.Core.csproj|solutionrelative:university.core\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{659E725E-1A55-4261-926F-AFB6CA99171C}|University.api\\University.api.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{659E725E-1A55-4261-926F-AFB6CA99171C}|University.api\\University.api.csproj|solutionrelative:university.api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.data\\university.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|solutionrelative:university.data\\university.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89F2635-2152-427F-A210-B3AA99D41B15}|University.Core\\University.Core.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.core\\forms\\createstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89F2635-2152-427F-A210-B3AA99D41B15}|University.Core\\University.Core.csproj|solutionrelative:university.core\\forms\\createstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.data\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|solutionrelative:university.data\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89F2635-2152-427F-A210-B3AA99D41B15}|University.Core\\University.Core.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.core\\forms\\updatestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89F2635-2152-427F-A210-B3AA99D41B15}|University.Core\\University.Core.csproj|solutionrelative:university.core\\forms\\updatestudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|c:\\users\\nouhad el hallab\\desktop\\university.api\\university.data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E320BD2C-6A2A-456D-AA0E-5C8D20E5ED3C}|University.Data\\University.Data.csproj|solutionrelative:university.data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UniversityDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\Contexts\\UniversityDbContext.cs",
+              "RelativeDocumentMoniker": "University.Data\\Contexts\\UniversityDbContext.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\Contexts\\UniversityDbContext.cs",
+              "RelativeToolTip": "University.Data\\Contexts\\UniversityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T23:16:36.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "University.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\University.Data.csproj",
+              "RelativeDocumentMoniker": "University.Data\\University.Data.csproj",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\University.Data.csproj",
+              "RelativeToolTip": "University.Data\\University.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-10T22:48:02.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.api\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "University.api\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.api\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "University.api\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA3wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:59:11.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Core\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "University.Core\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Core\\Services\\StudentService.cs",
+              "RelativeToolTip": "University.Core\\Services\\StudentService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:10:16.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Core\\Forms\\UpdateStudentForm.cs",
+              "RelativeDocumentMoniker": "University.Core\\Forms\\UpdateStudentForm.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Core\\Forms\\UpdateStudentForm.cs",
+              "RelativeToolTip": "University.Core\\Forms\\UpdateStudentForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:08:57.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateStudentForm.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Core\\Forms\\CreateStudentForm.cs",
+              "RelativeDocumentMoniker": "University.Core\\Forms\\CreateStudentForm.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Core\\Forms\\CreateStudentForm.cs",
+              "RelativeToolTip": "University.Core\\Forms\\CreateStudentForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:07:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "University.Data\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "University.Data\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T16:03:45.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\ClassMappings\\StudentMapping.cs",
+              "RelativeDocumentMoniker": "University.Data\\ClassMappings\\StudentMapping.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\ClassMappings\\StudentMapping.cs",
+              "RelativeToolTip": "University.Data\\ClassMappings\\StudentMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T15:21:37.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "University.Data\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.Data\\Entities\\Student.cs",
+              "RelativeToolTip": "University.Data\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T15:08:22.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.api\\Program.cs",
+              "RelativeDocumentMoniker": "University.api\\Program.cs",
+              "ToolTip": "C:\\Users\\Nouhad El Hallab\\Desktop\\University.api\\University.api\\Program.cs",
+              "RelativeToolTip": "University.api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:36:26.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
