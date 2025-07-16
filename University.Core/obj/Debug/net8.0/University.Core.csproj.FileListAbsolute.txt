@@ -13,3 +13,4 @@ C:\Users\Nouhad El Hallab\Desktop\University.api\University.Core\obj\Debug\net8.
 C:\Users\Nouhad El Hallab\Desktop\University.api\University.Core\obj\Debug\net8.0\refint\University.Core.dll
 C:\Users\Nouhad El Hallab\Desktop\University.api\University.Core\obj\Debug\net8.0\University.Core.pdb
 C:\Users\Nouhad El Hallab\Desktop\University.api\University.Core\obj\Debug\net8.0\ref\University.Core.dll
+C:\Users\Nouhad El Hallab\Desktop\University.api\University.Core\obj\Debug\net8.0\University.Core.sourcelink.json

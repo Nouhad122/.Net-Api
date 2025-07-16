@@ -7,6 +7,7 @@ namespace University.Data.Contexts
     public class UniversityDbContext : DbContext
     {
         public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -16,6 +17,7 @@ namespace University.Data.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new StudentMapping());
+            modelBuilder.ApplyConfiguration(new CourseMapping());
         }
     }
 }

@@ -1,13 +1,15 @@
 ﻿using AutoWrapper.Wrappers;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
+using University.api.Filters;
+using University.Core.DTOs;
 using University.Core.Forms;
 using University.Core.Services;
 
 namespace University.api.Controllers
 {
     [Route("api/[controller]")]
+    [TypeFilter(typeof(ApiExceptionFilter))]    
     [ApiController]
     public class StudentController : ControllerBase
     {
@@ -19,6 +21,9 @@ namespace University.api.Controllers
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(StudentDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ApiResponse GetById(int id)
         {
             var dto = _studentService.GetById(id);
@@ -26,17 +31,21 @@ namespace University.api.Controllers
         }
 
         [HttpGet()]
+        [ProducesResponseType(typeof(List<StudentDTO>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ApiResponse GetAll()
         {
             var dto = _studentService.GetAll();
-            return new ApiResponse(dto);
+            return new ApiResponse(dto); 
         }
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ApiResponse Create([FromBody] CreateStudentForm form)
         {
             _studentService.Create(form);
-            return new ApiResponse(HttpStatusCode.Created);
+            return new ApiResponse(HttpStatusCode.Created); 
         }
 
         [HttpPut("{id}")]
@@ -48,9 +57,9 @@ namespace University.api.Controllers
 
         [HttpDelete("{id}")]
         public ApiResponse Delete(int id)
-        {
+        { 
             _studentService.Delete(id);
-            return new ApiResponse(HttpStatusCode.OK);
+            return new ApiResponse(HttpStatusCode.OK);    
         }
     }
 }

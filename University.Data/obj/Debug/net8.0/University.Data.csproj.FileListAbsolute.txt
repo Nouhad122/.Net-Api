@@ -12,3 +12,4 @@ C:\Users\Nouhad El Hallab\Desktop\University.api\University.Data\obj\Debug\net8.
 C:\Users\Nouhad El Hallab\Desktop\University.api\University.Data\obj\Debug\net8.0\University.Data.pdb
 C:\Users\Nouhad El Hallab\Desktop\University.api\University.Data\obj\Debug\net8.0\University.Data.genruntimeconfig.cache
 C:\Users\Nouhad El Hallab\Desktop\University.api\University.Data\obj\Debug\net8.0\ref\University.Data.dll
+C:\Users\Nouhad El Hallab\Desktop\University.api\University.Data\obj\Debug\net8.0\University.Data.sourcelink.json

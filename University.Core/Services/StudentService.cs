@@ -2,34 +2,33 @@
 using University.Core.Forms;
 using University.Data.Entities;
 using University.Data.Repositories;
+using University.Core.Exceptions;
+using University.Core.Validations;
+using Microsoft.Extensions.Logging;
 
 namespace University.Core.Services
 {
     public class StudentService : IStudentService
     {
         public readonly IStudentRepository _studentRepository;
+        public readonly ILogger<StudentService> _logger;
 
-        public StudentService(IStudentRepository studentRepositoy)
+        public StudentService(IStudentRepository studentRepository, ILogger<StudentService> logger)
         {
-            _studentRepository = studentRepositoy;
+            _studentRepository = studentRepository;
+            _logger = logger;
         }
 
         public void Create(CreateStudentForm form)
         {
             if (form == null)
-            {
                 throw new ArgumentNullException(nameof(form));
-            }
 
-            if (string.IsNullOrEmpty(form.Name)) 
-            {
-                throw new Exception("Name Cannot be empty");
-            }
+            var validation = FormValidator.Validate(form);
 
-            if (string.IsNullOrEmpty(form.Email))
-            {
-                throw new Exception("Email Cannot be empty");
-            }
+            if (!validation.IsValid)
+                throw new BusinessException(validation.Errors);
+ 
 
             var student = new Student()
             {
@@ -47,7 +46,7 @@ namespace University.Core.Services
 
             if (student == null)
             {
-                throw new Exception("Student not found");
+                throw new NotFoundException("Student not found");
             }
             _studentRepository.Delete(student);
             _studentRepository.SaveChanges();
@@ -69,11 +68,12 @@ namespace University.Core.Services
 
         public StudentDTO GetById(int id)
         {
+            _logger.LogInformation($"Somebody tried to call GetById {id}");
             var student = _studentRepository.GetById(id);
 
             if (student == null)
             {
-                throw new Exception("Student not found");
+                throw new NotFoundException("Student not found");
             }
             var dto = new StudentDTO()
             {
@@ -92,16 +92,15 @@ namespace University.Core.Services
                 throw new ArgumentNullException(nameof(form));
             }
 
-            if (string.IsNullOrEmpty(form.Name))
-            {
-                throw new Exception("Name Cannot be empty");
-            }
+            var validation = FormValidator.Validate(form);
+            if(!validation.IsValid)
+                throw new BusinessException(validation.Errors);
 
             var student = _studentRepository.GetById(Id);
 
             if (student == null)
             {
-                throw new Exception("Student not found");
+                throw new NotFoundException("Student not found");
             }
 
             student.Name = form.Name;
