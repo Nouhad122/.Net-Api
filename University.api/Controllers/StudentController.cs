@@ -1,4 +1,5 @@
 ﻿using AutoWrapper.Wrappers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using University.api.Filters;
@@ -8,6 +9,7 @@ using University.Core.Services;
 
 namespace University.api.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [TypeFilter(typeof(ApiExceptionFilter))]    
     [ApiController]
@@ -33,6 +35,7 @@ namespace University.api.Controllers
         [HttpGet()]
         [ProducesResponseType(typeof(List<StudentDTO>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [Authorize(Roles = "Student")]
         public ApiResponse GetAll()
         {
             var dto = _studentService.GetAll();
